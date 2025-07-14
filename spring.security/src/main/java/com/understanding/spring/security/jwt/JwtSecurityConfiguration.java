@@ -105,7 +105,7 @@ public class JwtSecurityConfiguration {
     }
 
     @Bean
-    public JWKSource jwkSource(RSAKey rasKey) {
+    public JWKSource<SecurityContext> jwkSource(RSAKey rasKey) {
         JWKSet jwkSet = new JWKSet();
         return new JWKSource<>() {
 
