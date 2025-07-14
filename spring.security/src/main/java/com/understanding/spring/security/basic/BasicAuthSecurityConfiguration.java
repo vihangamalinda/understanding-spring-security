@@ -20,7 +20,7 @@ import javax.sql.DataSource;
 
 import static org.springframework.security.core.userdetails.jdbc.JdbcDaoImpl.DEFAULT_USER_SCHEMA_DDL_LOCATION;
 
-@Configuration
+//@Configuration
 public class BasicAuthSecurityConfiguration {
 
 
